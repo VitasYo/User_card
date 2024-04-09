@@ -8,24 +8,18 @@
   margin-bottom: 0;
 }
 
-.container h4 {
-  margin-top: 0;
+.container h3 {
+  margin-top: 10px;
   margin-bottom: 0;
-  color: gray;
 }
-
-.container p {
-  font-weight: bold;
-}
-
+ 
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: rgb(243, 249, 255);
   border-radius: 20px;
   height: 920px;
-  justify-content: center;
+  vertical-align: bottom;
 }
 
 .container_card {
@@ -34,23 +28,21 @@
   align-items: center;
   background-color: white;
   border-radius: 20px;
-  width: 310px;
+  width: 250px;
 }
 
 .position {
   color: gray;
-  margin-top: 8px;
 }
 
 .avatar {
-  margin-top: -95px;
   width: 200px;
-  height: 270px;
+  height: 260px;
   border-radius: 20px;
 }
 
 .user-info {
-  margin-bottom: 8px;
+  margin-bottom: 22px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,22 +52,20 @@
 .icon {
   width: 30px;
   height: 30px;
-  padding: 15px;
+  padding: 10px;
   background-color: rgb(243, 249, 255);
   border-radius: 8.27px;
   margin: 4px;
 }
 
+.card_icon {
+  width: 20px;
+  height: 20px;
+}
+
 .items_card {
   background-color: rgb(243, 249, 255);
   border-radius: 20px;
-  width: 260px;
-  padding: 20px 0;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
 }
 
 .items_string {
@@ -86,26 +76,14 @@
   border-width: 1px;
 }
 
-.card_icon {
-  width: 20px;
-  height: 20px;
-  padding: 0 10px;
-}
-
 .card_info {
-  margin-left: 10px;
   font-size: 16px;
-  width: 180px;
 }
 
 .button {
-  margin: 16px 0;
+  margin-top: 16px;
   background-color: aqua;
   border-radius: 20px;
-  border-width: 0;
   width: 185px;
-  height: 52px;
-  font-size: 14px;
-  font-weight: 420;
-  cursor: pointer;
+  height: 44px;
 }

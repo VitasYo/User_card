@@ -34,7 +34,7 @@
   align-items: center;
   background-color: white;
   border-radius: 20px;
-  width: 310px;
+  width: 300px;
 }
 
 .position {
@@ -71,8 +71,7 @@
   border-radius: 20px;
   width: 260px;
   padding: 20px 0;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin: 10px 0;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -106,6 +105,6 @@
   width: 185px;
   height: 52px;
   font-size: 14px;
-  font-weight: 420;
+  font-weight: 450;
   cursor: pointer;
 }

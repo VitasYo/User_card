@@ -8,16 +8,11 @@
   margin-bottom: 0;
 }
 
-.container h4 {
+.container h3 {
   margin-top: 0;
   margin-bottom: 0;
-  color: gray;
 }
-
-.container p {
-  font-weight: bold;
-}
-
+ 
 .container {
   display: flex;
   flex-direction: column;
@@ -34,7 +29,7 @@
   align-items: center;
   background-color: white;
   border-radius: 20px;
-  width: 310px;
+  width: 300px;
 }
 
 .position {
@@ -71,11 +66,7 @@
   border-radius: 20px;
   width: 260px;
   padding: 20px 0;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
+  margin: 10px 0;
 }
 
 .items_string {
@@ -104,8 +95,6 @@
   border-radius: 20px;
   border-width: 0;
   width: 185px;
-  height: 52px;
-  font-size: 14px;
-  font-weight: 420;
+  height: 44px;
   cursor: pointer;
 }

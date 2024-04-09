@@ -68,11 +68,11 @@
 
 .items_card {
   background-color: rgb(243, 249, 255);
-  border-radius: 20px;
+  border-radius: 20px3
   width: 260px;
   padding: 20px 0;
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   align-items: center;
   display: flex;
   flex-direction: column;
